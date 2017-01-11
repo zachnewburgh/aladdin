@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'aladdin/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "aladdin"
+  spec.name          = "aladdin_magic_carpet"
   spec.version       = Aladdin::VERSION
   spec.authors       = ["Zach Newburgh"]
   spec.email         = ["zach.newburgh@gmail.com"]
