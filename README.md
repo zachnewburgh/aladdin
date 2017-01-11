@@ -7,7 +7,7 @@ This gem shows an ASCII image of Disney's Aladdin in the command line.
 In your terminal:
 
 ```
-$ gem install aladdin
+$ gem install aladdin_magic_carpet
 ```
 
 ## Usage
@@ -16,6 +16,8 @@ To use the gem, type the following your terminal:
 
 ```
 $ irb
+
+> require 'aladdin'
 
 > Aladdin::CLI.new.call
 
